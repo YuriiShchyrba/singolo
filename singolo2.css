@@ -1,0 +1,167 @@
+html{
+	font-family: 'Lato', serif ;
+    font-size: 10px;
+}
+
+body{
+	font-family: 'Lato',serif;
+    font-size: 1.6rem;
+}
+
+section
+{
+	display: flex;
+}
+
+.wrapper
+{
+	margin : auto;
+	max-width: 1020px;
+}
+
+
+.portfolio .wrapper
+{
+	background-color: #323746;
+	display: block;
+	height: 870px;
+}	
+
+.portfolio h1
+{
+	font-size: 32px;
+	line-height: 18px;
+	color: #666d89;
+	font-family: "Lato";
+	font-weight: 900;
+	text-align: left;
+	padding-top: 43px;
+	padding-left: 40px;
+}
+
+.portfolio h4
+{
+	word-spacing: -0.08em;
+	font-size: 18px;
+	color: #767e9e;
+	font-family: "Lato";
+	font-weight: 300;
+	text-align: left;
+	padding-left: 40px;
+	padding-top: 4px;
+}
+
+.portfolio-photos__wrapper{
+
+}
+
+.portfolio-photos__wrapper .buttons
+{
+padding-left: 40px;
+
+
+}
+
+.portfolio-photos__wrapper .buttons button
+{
+	height: 22px;
+	border-radius: 5px;
+	background-color: #323746;
+	border: 1px solid #666d89;
+	font-size: 12px;
+	line-height: 22px;
+	color: #767e9e;
+	font-family: "Lato";
+	font-weight: 400;
+	text-align: center;
+	padding-bottom: 10px;
+	margin-right: 9px;
+	margin-bottom: -10px;
+}
+
+.portfolio-photos__wrapper .buttons button:hover
+{
+	color:white;
+}
+
+
+.layout-4-column
+{
+	display: flex;
+	padding-top: 10px;
+	padding-left: 40px;
+}
+
+
+.layout-4-column .column img
+{	
+	padding-bottom: 19px;
+}
+
+
+.about-us .wrapper
+{
+	height: 728px;
+	background-color: #f2f2f2;
+}
+
+.about-us .wrapper h1
+{
+	font-size: 30px;
+	line-height: 18px;
+	color: #666d89;
+	font-family: "Lato";
+	font-weight: 900;
+	text-align: left;
+	padding-top: 43px;
+	padding-left: 40px;
+}
+
+.about-us .wrapper h4{
+	word-spacing: -0.02em;
+	font-size: 18px;
+	line-height: 31px;
+	color: #767e9e;
+	font-family: "Lato";
+	font-weight: 300;
+	text-align: left;
+	padding-left: 40px;
+}
+
+.layout-3-column
+{
+	display: flex;
+	padding-top: 20px;
+	padding-left: 40px;
+}
+
+.layout-3-column .column img
+{
+}
+
+.layout-3-column .column h2
+{
+	font-size: 18px;
+	line-height: 18px;
+	color: #666d89;
+	font-family: "Lato";
+	font-weight: 900;
+	text-align: left;
+	margin-bottom: -20px;
+}
+
+.layout-3-column .column h6{
+	font-size: 12px;
+	line-height: 22px;
+	color: #767e9e;
+	font-family: "Lato";
+	font-weight: 400;
+	text-align: left;
+	margin-bottom: 25px;
+}
+
+.layout-3-column .column .tool-icon .icon-round img
+{
+	padding-right: 6px;
+}
+
