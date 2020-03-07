@@ -1,8 +1,204 @@
 html{
+	font-family: 'Lato', serif ;
     font-size: 10px;
 }
 
 body{
+	font-family: 'Lato',serif;
     font-size: 1.6rem;
-    block-size: 1200px;
+    height: 1196px;
+}
+
+section
+{
+	display: flex;
+}
+
+.wrapper
+{
+	max-width: 1020px;
+	margin : auto;
+}
+
+.header .wrapper
+{
+	height: 95px;
+	background-color: #2d303a;
+	color: #ffffff;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.header p{
+	position: absolute;
+	padding-right: 825px;	
+	padding-top: 4px;
+	font-family: 'Lato', serif ;
+	font-weight: 700;
+	font-size: 25px;
+}
+
+ul
+{
+	display: flex;
+	list-style: none;
+	position: absolute;
+	margin: 40px 300px;
+	
+}
+
+li{
+	font-size: 12px;
+	padding-top: 2px;
+	padding-left: 14px;
+	padding-right: 15px;
+}
+
+
+li:hover{
+	color: #f06c64;
+}
+
+
+
+
+.phones .wrapper
+{
+	background-color: #f06c64;
+	width: 1020px;
+	height: 600px;
+	display: flex;
+}
+
+.phone_wrapper{
+	width: 150px;
+}
+
+ .phone_wrapper img:first-child
+{
+	padding:53px 111px;
+	position: absolute;
+}
+
+ .phone_wrapper img:nth-child(2)
+{
+	padding:53px 111px;
+
+}
+
+
+.phone_wrapper2 img:first-child
+{
+	padding:174px 274px;
+	position: absolute;
+}
+
+ .phone_wrapper2 img:nth-child(2)
+{
+	padding:174px 274px;
+
+}
+
+
+.page_transfer_wrapper  img
+{
+	position: absolute;
+
+}
+
+.page_transfer__sign:hover
+{
+	background-color: black;
+
+}
+
+.page_transfer_wrapper img:first-child
+{
+		margin-top: 282px;
+		margin-left: 40px;
+}
+
+
+.page_transfer_wrapper img:nth-child(2)
+{
+		margin-top: 282px;
+		margin-left: 963px;	
+		transform: rotate(180deg);
+}
+
+
+
+
+.Our_Services .wrapper{
+	color: #666d89;
+	text-align: left;
+	height: 501px;
+
+	
+}
+
+
+.Our_Services_wrapper
+{
+	background-color: #f2f2f2;
+	width: 1020px;
+}
+
+.layout-3-column
+{
+	display: flex;
+	margin-left: 40px;
+	margin-top: 35px;
+}
+
+.Our_Services_wrapper h1
+{
+	margin: 60px 0 0 41px ;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.Our_Services_wrapper p
+{
+	margin: 18px 0 0 41px ;
+	font-size: 18px;
+	width: 940px;	
+
+	line-height: 29px;
+	color: #767e9e;
+	font-weight: 300;
+}
+
+.tool
+{
+	display: flex;
+	justify-content: space-around;
+	width: 310px;
+	height: 122px;
+	margin-right: 10px;
+
+}
+
+.tool_icon
+{
+	margin-top: 16px;
+}
+
+.info{
+	margin-left: 20px;
+}
+
+h3 { margin-top: 10px; margin-bottom: -17px;
+
+}
+
+h6{
+margin-top: 25px;
+font-size: 12px;
+line-height: 22px;
+color: #767e9e;
+font-family: "Lato";
+font-weight: 400;
+text-align: left;
 }
