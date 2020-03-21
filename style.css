@@ -20,6 +20,7 @@ section
 	margin : auto;
 }
 
+
 .header .wrapper
 {
 	height: 95px;
@@ -44,23 +45,36 @@ ul
 	display: flex;
 	list-style: none;
 	position: absolute;
-	margin: 40px 300px;
+	margin: 20px 300px;
 	
 }
 
-li{
+.nav_tag{
+	height: 30px;
+	cursor: pointer;
 	font-size: 12px;
-	padding-top: 2px;
+	padding-top: 12px;
 	padding-left: 14px;
 	padding-right: 15px;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 
-li:hover{
+.nav_tag:not(.active):hover{
 	color: #f06c64;
 }
 
+.nav_tag.active{
+	color: green;
+	border: 1px solid red;
+}
 
+
+.navigation a{
+	text-decoration: none;
+	color: white;
+}
 
 
 .phones .wrapper
@@ -69,6 +83,10 @@ li:hover{
 	width: 1020px;
 	height: 600px;
 	display: flex;
+}
+
+.phones .wrapper.active{
+	background-image: url(./assets/Slide-2.png);
 }
 
 .phone_wrapper{
@@ -101,30 +119,10 @@ li:hover{
 }
 
 
-.page_transfer_wrapper  img
+.page_transfer__sign
 {
-	position: absolute;
-
-}
-
-.page_transfer__sign:hover
-{
-	background-color: black;
-
-}
-
-.page_transfer_wrapper img:first-child
-{
-		margin-top: 282px;
-		margin-left: 40px;
-}
-
-
-.page_transfer_wrapper img:nth-child(2)
-{
-		margin-top: 282px;
-		margin-left: 963px;	
-		transform: rotate(180deg);
+	height: 40px;
+	width: 50px;
 }
 
 
