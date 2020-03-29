@@ -52,24 +52,24 @@ h5 {
 
 .link_facebook {
   display: inline-block;
-  background-image: url(../asets/facebook.svg);
+  background-image: url(asets/facebook.svg);
   width: 32px;
   height: 32px;
 }
 .link_google {
-  background-image: url(../asets/google+.svg);
+  background-image: url(asets/google+.svg);
   width: 32px;
   height: 32px;
   display: inline-block;
 }
 .link_twitter {
-  background-image: url(../asets/twitter.svg);
+  background-image: url(asets/twitter.svg);
   width: 32px;
   height: 32px;
   display: inline-block;
 }
 .link_linkedin {
-  background-image: url(../asets/linkedin.svg);
+  background-image: url(asets/linkedin.svg);
   width: 32px;
   height: 32px;
   display: inline-block;
@@ -255,7 +255,7 @@ h5 {
 }
 
 .icon-pointer.icon-pointer_left {
-  background-image: url(../asets/pointer-left.svg);
+  background-image: url(asets/pointer-left.svg);
   width: 16px;
   height: 27px;
   display: inline-block;
@@ -267,7 +267,7 @@ h5 {
   }
 }
 .icon-pointer.icon-pointer_right {
-  background-image: url(../asets/pointer-right.svg);
+  background-image: url(asets/pointer-right.svg);
   width: 16px;
   height: 27px;
   display: inline-block;
@@ -409,37 +409,37 @@ h5 {
   margin-right: 20px;
 }
 .icon-round_pen {
-  background-image: url(../asets/pen.svg);
+  background-image: url(asets/pen.svg);
   width: 59px;
   height: 59px;
   display: inline-block;
 }
 .icon-round_bulb {
-  background-image: url(../asets/bulb.svg);
+  background-image: url(asets/bulb.svg);
   width: 59px;
   height: 59px;
   display: inline-block;
 }
 .icon-round_heart {
-  background-image: url(../asets/heart.svg);
+  background-image: url(asets/heart.svg);
   width: 59px;
   height: 59px;
   display: inline-block;
 }
 .icon-round_phone {
-  background-image: url(../asets/phone.svg);
+  background-image: url(asets/phone.svg);
   width: 59px;
   height: 59px;
   display: inline-block;
 }
 .icon-round_mind {
-  background-image: url(../asets/mind.svg);
+  background-image: url(asets/mind.svg);
   width: 59px;
   height: 59px;
   display: inline-block;
 }
 .icon-round_star {
-  background-image: url(../asets/star.svg);
+  background-image: url(asets/star.svg);
   width: 59px;
   height: 59px;
   display: inline-block;
@@ -585,21 +585,21 @@ h5 {
 }
 
 .map__icon {
-  background-image: url(../asets/map.svg);
+  background-image: url(asets/map.svg);
   width: 7px;
   height: 11px;
   display: inline-block;
 }
 
 .telephone__icon {
-  background-image: url(../asets/telephone.svg);
+  background-image: url(asets/telephone.svg);
   width: 11px;
   height: 11px;
   display: inline-block;
 }
 
 .email__icon {
-  background-image: url(../asets/mail.svg);
+  background-image: url(asets/mail.svg);
   width: 13px;
   height: 8px;
   display: inline-block;
