@@ -585,7 +585,7 @@ h5 {
 }
 
 .map__icon {
-  background-image: url(asets/map.svg);
+  background-image: url(asets/location.svg);
   width: 7px;
   height: 11px;
   display: inline-block;
@@ -643,4 +643,4 @@ h5 {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+
